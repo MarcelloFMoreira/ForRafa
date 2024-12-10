@@ -14,9 +14,9 @@
         <div class="logo"><img src="./img/imagem do logo.png" alt="Logo">
             <h1 alt="type">ForRafa</h1>
         </div>
-        <div class="links"><a href="#">Music</a> <a href="#">I lvu</a> <a href="#">Card</a> <a href="#">Text</a></div>
+        <div class="links"><a href="#sect1">Music</a> <a href="#sect2">I lvu</a> <a href="#sect3">Card</a> <a href="#footer">Text</a></div>
     </header>
-    <section class="sect1"><img src="./img/RAFA bg.png" alt="bg"></section>
+    <section class="sect1" ><img src="./img/RAFA bg.png" alt="bg" id="sect1"></section>
     <section class="sect2"><audio src="./img/L.O.V.E.mp3"></audio> <button class="Play"><img
                 src="./img/play-solid 1.png" alt="play-icon"></button>
         <p>This song reminds me of you</p>
@@ -24,36 +24,48 @@
     <section class="sect3"><img src="img/Line 1.png" class="line"><img src="img/heart-regular 1.png" alt="heart"><img
             src="img/Line 1.png" class="line"></section>
     <nav>
-        <h1>Reasons why I love you</h1>
+        <h1 id="sect2">Reasons why I love you</h1>
     </nav>
     <div class="container swiper">
-        <div class="cards">
-            <ul class="lista-cards swiper-wrapper">
-                <li  class="swiper-slide"><img src="img\carrosel (1).png">
-                    <p>Your beauty</p>
-                </li>
-                <li class="swiper-slide"><img src="img\carrosel (2).png">
-                    <p>Your antics</p>
-                </li>
-                <li class="swiper-slide"><img src="img\carrosel (3).png">
-                    <p>Your smile</p>
-                </li>
-                <li class="swiper-slide"><img src="img\carrosel (4).png">
-                    <p>How do you look at me</p>
-                </li>
-                <li class="swiper-slide"><img src="img\carrosel (5).png">
-                    <p>How do you give yourself for me</p>
-                </li>
-                <li class="swiper-slide"><img src="img\carrosel (6).png">
-                    <p>Your dedication</p>
-                </li>
-            </ul>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="img/carrosel (1).png">
+                <p>Your beauty</p>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/carrosel (2).png">
+                <p>Your antics</p>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/carrosel (3).png">
+                <p>Your smile</p>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/carrosel (4).png">
+                <p>How do you look at me</p>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/carrosel (5).png">
+                <p>How do you give yourself for me</p>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/carrosel (6).png">
+                <p>Your dedication</p>
+            </div>
         </div>
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
     </div>
+    <section class="image-container"><img src="img\BG.png" alt="backgroud" class="img-bg"> <img src="img\rafa ble.png" class="img-overlay" id="sect3"></section>
+
+    <aside class="carta"><img src="img\card.png" alt=""> <p>That´s life, and it is more beautiful the moment you smile, I don't want to be obvious and say stupid things like: I love you because, it's more, much more than that. with you I want to travel every road, reach the top of the most beautiful places, face mine and your fears, so fill my heart with music, let me see spring on Mars or Jupiter, in other words, darling, kiss me, in other words, I love you.
+    </p></aside>
+    <footer id="footer"><h1>I did it my way</h1> <input type="text" placeholder="Leave your suggestion babe"> <button class="Send">Send</button></footer>
+    
 </body>
-<script src="./script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./script.js"></script>
 
 </html>

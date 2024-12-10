@@ -14,19 +14,16 @@ button.addEventListener('click', function () {
     }
 });
 
-new Swiper('.cards', {
-    loop: true,
-
-    // bullets
+new Swiper('.swiper', {
+    loop: true, // Habilita o loop infinito
     pagination: {
         el: '.swiper-pagination',
+        clickable: true, // Permite clicar nas bolinhas da paginação
     },
-
-    // Navigation arrows
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
-
-
+    slidesPerView: 1, // Mostra 1 slide por vez
+    spaceBetween: 20, // Espaçamento entre os slides
 });
