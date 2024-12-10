@@ -132,6 +132,22 @@ nav h1 {
 
 .cards .lista-cards li img {
     margin-bottom: 1rem;
+    width: 18.7rem;
 
 
+}
+
+.cards .lista-cards{
+    list-style: none;
+}
+
+.cards .lista-cards li p{
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 150;
+    font-style: normal;
+    font-size: medium;
+    background-color: transparent;
+    padding: 2px;
 }

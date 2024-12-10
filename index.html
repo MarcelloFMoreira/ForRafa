@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -26,19 +26,34 @@
     <nav>
         <h1>Reasons why I love you</h1>
     </nav>
-    <div class="container">
+    <div class="container swiper">
         <div class="cards">
-            <ul class="lista-cards">
-                <li ><img src="img\carrosel (1).png"> <p>xxxxxxx</p></li>
-                <!-- <li><img src="img\Carrosel (2).png"> <p>xxxxxxx</p></li>
-                <li><img src="img\Carrosel (3).png"> <p>xxxxxxx</p></li>
-                <li><img src="img\Carrosel (4).png"> <p>xxxxxxx</p></li>
-                <li><img src="img\Carrosel (5).png"> <p>xxxxxxx</p></li>
-                <li><img src="img\Carrosel (6).png"> <p>xxxxxxx</p></li> -->
+            <ul class="lista-cards swiper-wrapper">
+                <li  class="swiper-slide"><img src="img\carrosel (1).png">
+                    <p>Your beauty</p>
+                </li>
+                <li class="swiper-slide"><img src="img\carrosel (2).png">
+                    <p>Your antics</p>
+                </li>
+                <li class="swiper-slide"><img src="img\carrosel (3).png">
+                    <p>Your smile</p>
+                </li>
+                <li class="swiper-slide"><img src="img\carrosel (4).png">
+                    <p>How do you look at me</p>
+                </li>
+                <li class="swiper-slide"><img src="img\carrosel (5).png">
+                    <p>How do you give yourself for me</p>
+                </li>
+                <li class="swiper-slide"><img src="img\carrosel (6).png">
+                    <p>Your dedication</p>
+                </li>
             </ul>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
         </div>
     </div>
 </body>
 <script src="./script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 </html>
